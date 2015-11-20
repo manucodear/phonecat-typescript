@@ -1,0 +1,26 @@
+{
+  "name": "angular.phonecat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc -p src/app -w",
+    "start": "live-server --open=src --port=8090",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "xmanu",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.4.7",
+    "angular-animate": "^1.4.7",
+    "angular-resource": "^1.4.7",
+    "angular-route": "^1.4.7",
+    "bootstrap": "^3.3.5",
+    "jquery": "^2.1.4"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "live-server": "^0.8.2",
+    "typescript": "^1.6.2"
+  }
+}
